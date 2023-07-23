@@ -1,5 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run --watch main.ts"
+    "dev": "deno run --watch main.ts",
+    "publish": "deno run --allow-read --allow-write --allow-run https://deno.land/x/publish@v1.15.0/cli.ts"
   }
 }
