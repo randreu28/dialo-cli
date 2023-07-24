@@ -7,7 +7,7 @@ await new Command()
   .name("Llama-cli")
   .version(VERSION)
   .description(
-    "A CLI for interacting with DialoGPT.\n https://github.com/randreu28/dialo-cli",
+    "A CLI for interacting with DialoGPT.\n https://github.com/randreu28/dialoGPT-cli",
   )
   .parse(Deno.args);
 
